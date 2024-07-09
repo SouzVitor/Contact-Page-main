@@ -2,14 +2,21 @@ body {
     font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: #Ffffff;
+=======
+    background-color: #f4f4f9;
+>>>>>>> 0456527df379f01a093f4b624d296da1286d0a13
     background-image: url('bg-image.svg'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Ajusta a imagem para cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
+<<<<<<< HEAD
     font-style: normal !important;
     display: flex;
     flex-direction: column;
+=======
+>>>>>>> 0456527df379f01a093f4b624d296da1286d0a13
 }
 
 .icon {
@@ -25,19 +32,30 @@ header {
 .text_main p {
     font-size: 2em;
     margin: 5px 0;
+<<<<<<< HEAD
     color: #F8FAFC;
+=======
+>>>>>>> 0456527df379f01a093f4b624d296da1286d0a13
 }
 
 .text_secondary p {
     font-size: 1.3em;
+<<<<<<< HEAD
     color: #Ffffff;
+=======
+    color: #000;
+    
+>>>>>>> 0456527df379f01a093f4b624d296da1286d0a13
 }
 
 .form {
     width: 60%;
     margin: 0 auto;
     background-color: #fff;
+<<<<<<< HEAD
     border-radius: 20px;
+=======
+>>>>>>> 0456527df379f01a093f4b624d296da1286d0a13
     padding: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -78,12 +96,18 @@ header {
     border-radius: 5px;
     font-size: 1.2em;
     cursor: pointer;
+<<<<<<< HEAD
     animation: pulse 1s infinite; /* Aplica a animação 'pulse' de forma infinita */
+=======
+>>>>>>> 0456527df379f01a093f4b624d296da1286d0a13
 }
 
 .contact_sales button:hover {
     background-color: #0056b3;
+<<<<<<< HEAD
     animation: none; /* Remove a animação quando o botão é hover para evitar conflito */
+=======
+>>>>>>> 0456527df379f01a093f4b624d296da1286d0a13
 }
 
 @keyframes pulse {
@@ -97,3 +121,23 @@ header {
         transform: scale(1);
     }
 }
+<<<<<<< HEAD
+=======
+
+.contact_sales button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    animation: pulse 1s infinite; /* Aplica a animação 'pulse' de forma infinita */
+}
+
+.contact_sales button:hover {
+    background-color: #0056b3;
+    animation: none; /* Remove a animação quando o botão é hover para evitar conflito */
+    
+>>>>>>> 0456527df379f01a093f4b624d296da1286d0a13
