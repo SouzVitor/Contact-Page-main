@@ -1,0 +1,99 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #Ffffff;
+    background-image: url('bg-image.svg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    font-style: normal !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text_main p {
+    font-size: 2em;
+    margin: 5px 0;
+    color: #F8FAFC;
+}
+
+.text_secondary p {
+    font-size: 1.3em;
+    color: #Ffffff;
+}
+
+.form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.information, .message, .contact_sales {
+    margin-bottom: 20px;
+}
+
+.information label, .message label {
+    font-size: 1.2em;
+}
+
+.information input, .message .text_message {
+    width: 98%;
+    padding: 6px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.employees, .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact_sales button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    animation: pulse 1s infinite; /* Aplica a animação 'pulse' de forma infinita */
+}
+
+.contact_sales button:hover {
+    background-color: #0056b3;
+    animation: none; /* Remove a animação quando o botão é hover para evitar conflito */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

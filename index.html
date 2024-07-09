@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 100%;
+            height: 100vh; /* Altura da viewport */
+            /* Outros estilos do contêiner */
+        }
+        .icon img {
+            height: 200px; /* Altere o tamanho conforme necessário */
+        }
+
+        .icon img {
+            transition: transform 0.3s ease-out;
+        }
+
+        .icon img:hover {
+            transform: translate(-5px, -5px); /* Movimento para cima e para a esquerda */
+        }
+
+    </style>
+    <!-- Link do estilo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link das fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Ícone do início -->
+    <div class="icon">
+        <img src="img/VGS.svg" alt="Ícone de contato">        
+    </div>
+    <!-- Contêiner do cabeçalho -->
+    <header class="text_main">
+        <div class="text_main">
+            <p>Interessado em nossos</p>
+            <p>Serviços?</p>
+        </div>
+        <div class="text_secondary">
+            <p>Preencha o formulário e entraremos</p>
+            <p>em contato com você o mais rápido possível.</p>
+        </div>    
+    </header>
+    <!-- Contêiner do formulário -->
+    <main class="form">
+        <!-- Primeiro contêiner: Informação -->
+        <div class="information">
+            <div class="name">
+                <label for="name">Nome</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Vitor Souza">
+            </div>
+            <div class="company_email">
+                <label for="company_email">E-mail da Empresa</label>
+                <br>
+                <input type="email" id="Email" name="Email" placeholder="vitorsouza@vgsconsultoria.com">
+            </div>
+            <div class="company_size">
+                <label for="company_size">Tamanho da Empresa</label>
+                <div class="employees">
+                    <p>50-100 funcionários</p>
+                    <img src="img/Expand_down.svg" alt="Expandir">
+                </div>
+            </div>
+            <div class="subject">
+                <label for="subject">Assunto</label>
+                <div class="input">
+                    <p>Construção de Landing Pages</p>
+                    <img src="img/Expand_down.svg" alt="Expandir">
+                </div>
+            </div>
+        </div>
+        <!-- Segundo contêiner: Mensagem -->
+        <div class="message">
+            <label for="message">Mensagem</label>
+            <div class="text_message">
+                <p>Descreva aqui a sua mensagem</p>
+            </div>
+        </div>
+        <!-- Terceiro contêiner: Botão -->
+        <div class="contact_sales">
+            <button type="button">Contatar Vendas</button>
+        </div>
+    </main>
+    <br>
+</body>
+</html>
